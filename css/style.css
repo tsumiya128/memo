@@ -1,0 +1,47 @@
+.all{
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.midle{
+  padding-left: 20px;
+  font-size: 20px;
+
+}
+
+.short{
+  padding-left: 40px;
+
+}
+
+.font{
+  font-size: 25px;
+}
+
+.modal{
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2
+}
+.modal__bg{
+    background: rgba(0,0,0,0.8);
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+.modal__content{
+    background: #fff;
+    left: 50%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+}
+
+.modal-img{
+  position: relative;
+  margin-right: 200px;
+}
